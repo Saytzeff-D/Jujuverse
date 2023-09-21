@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juju | Product</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         .store-body {
             background-color: #F6F1EB !important;
@@ -23,6 +24,8 @@
             color: #08D3FF !important;
         }
     </style>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
 </head>
 <body>
     <main>
@@ -32,7 +35,7 @@
         <div class="store-body">
             <nav class="navbar navbar-expand-lg navbar-light px-md-5">
                 <div class="container-fluid">
-                  <a class="navbar-brand text-uppercase fw-bolder fs-2 text-white" href="#">JUJU</a>
+                  <a class="navbar-brand text-uppercase fw-bolder fs-2 text-white" href="/">JUJU</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -77,34 +80,34 @@
                             </p>
                             <!-- Size -->
                             <div class="d-flex">
-                                <div class="border border-white rounded-3 text-white p-2 fw-bold mx-2">
+                                <button class="btn btn-white rounded-3 text-white p-2 fw-bold mx-2">
                                     MAN
-                                </div>
-                                <div class="border border-white rounded-3 text-dark fw-bold p-2 bg-white mx-2">
+                                </button>
+                                <button class="btn btn-white rounded-3 text-dark fw-bold p-2 bg-white mx-2">
                                     WOMAN
-                                </div>
-                                <div class="border border-white rounded-3 text-white p-2 fw-bold mx-2">
+                                </button>
+                                <button class="btn btn-white rounded-3 text-white p-2 fw-bold mx-2">
                                     UNISEX
-                                </div>
+                                </button>
                             </div>
                             <!-- Size -->
                             <!-- Size -->
                             <div class="d-flex my-4">
-                                <div class="border border-white rounded-3 text-white p-2 fw-bold mx-2">
+                                <button class="btn btn-white rounded-3 text-white p-2 fw-bold mx-2">
                                     XS
-                                </div>
-                                <div class="border border-white rounded-3 text-white p-2 fw-bold mx-2">
+                                </button>
+                                <button class="btn btn-white rounded-3 text-white p-2 fw-bold mx-2">
                                     S
-                                </div>
-                                <div class="border border-white rounded-3 text-white p-2 fw-bold mx-2">
+                                </button>
+                                <button class="btn btn-white rounded-3 text-white p-2 fw-bold mx-2">
                                     M
-                                </div>
-                                <div class="border border-white rounded-3 text-dark fw-bold p-2 bg-white mx-2">
+                                </button>
+                                <button class="btn btn-white rounded-3 text-dark fw-bold p-2 bg-white mx-2">
                                     L
-                                </div>
-                                <div class="border border-white rounded-3 text-white p-2 fw-bold mx-2">
+                                </button>
+                                <button class="btn btn-white rounded-3 text-white p-2 fw-bold mx-2">
                                     XL
-                                </div>
+                                </button>
                             </div>
                             <!-- Size -->
                             <!-- Discount codes -->
@@ -135,23 +138,130 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="mb-4">
-                                <button class="btn btn-light text-uppercase fw-bold fs-5 px-5 mx-2 rounded-2 py-3">Check out</button>
-                                <button class="btn btn-light text-uppercase fw-bold fs-5 px-5 mx-2 rounded-2 py-3">Add to cart</button>
+                            <div class="mb-4 d-flex flex-md-row flex-column">
+                                <button class="btn btn-light text-uppercase fw-bold fs-5 px-5 mx-2 rounded-2 py-3 my-md-0 my-2">Check out</button>
+                                <button class="btn btn-light text-uppercase fw-bold fs-5 px-5 mx-2 rounded-2 py-3 my-md-0 my-2">Add to cart</button>
                             </div>
                             <div class="mt-4 ps-3 d-flex">
                                 <p class="text-white text-uppercase fs-6 fw-bold pe-2">Select what cause you donate</p>
                                 <img src="./assets/donate.png" height="20px" />
                             </div>
-                            <div class="mb-5">
-                                <button class="btn btn-connect px-5 py-3 mx-3 text-uppercase fw-bold fs-6">cell therapy</button>
-                                <button class="btn btn-connect px-5 py-3 mx-3 text-uppercase fw-bold fs-6">donate</button>
+                            <div class="mb-5 d-flex flex-md-row flex-column">
+                                <button class="btn btn-connect px-5 py-3 mx-3 text-uppercase fw-bold fs-6 my-md-0 my-2">cell therapy</button>
+                                <button class="btn btn-connect px-5 py-3 mx-3 text-uppercase fw-bold fs-6 my-md-0 my-2">donate</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>    
+        </div>
+        <!-- Store body -->
+        <!-- Footer -->
+        <footer class="container-fluid bg-white pt-5">
+            <div class="container d-flex flex-sm-row flex-column">
+                <div class="d-flex flex-sm-row flex-column">
+                    <div class="ms-3">
+                        <p class="fw-bold text-uppercase fs-6">
+                            Need help
+                        </p>
+                        <ul class="list-unstyled">
+                            <li class="fs-7 py-2 fw-bold">
+                                CONTACT US
+                            </li>
+                            <li class="fs-7 py-2 fw-bold">
+                                TRACK ORDER
+                            </li>
+                            <li class="fs-7 py-2 text-uppercase fw-bold">
+                                Returns & Refunds
+                            </li>
+                            <li class="fs-7 py-2 fw-bold">
+                                FAQ's
+                            </li>
+                            <li class="fs-7 py-2 text-uppercase fw-bold">
+                                Career
+                            </li>
+                        </ul>
+                        <div class="d-flex pt-5">
+                            <div class="bg-dark py-1 mx-1 px-3 rounded-5">
+                                <a href="#"><i class="fa fa-facebook text-white"></i></a>
+                            </div>
+                            <div class="bg-dark py-1 mx-1 px-3 rounded-5">
+                                <a href="#"><i class="fa fa-twitter text-white"></i></a>
+                            </div>
+                            <div class="bg-dark py-1 mx-1 px-3 rounded-5">
+                                <a href="#"><i class="fa fa-instagram text-white"></i></a>
+                            </div>
+                            <div class="bg-dark py-1 mx-1 px-3 rounded-5">
+                                <a href="#"><i class="fa fa-linkedin text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mx-5">
+                        <p class="fw-bold text-uppercase fs-6">
+                            Company
+                        </p>
+                        <ul class="list-unstyled">
+                            <li class="fs-7 py-2 fw-bold text-uppercase">
+                                Career
+                            </li>
+                            <li class="fs-7 py-2 fw-bold text-uppercase">
+                                Contact us
+                            </li>
+                            <li class="fs-7 py-2 text-uppercase fw-bold">
+                                Returns & refunds
+                            </li>
+                            <li class="fs-7 py-2 fw-bold text-uppercase">
+                                About
+                            </li>
+                            <li class="fs-7 py-2 text-uppercase fw-bold">
+                                Media
+                            </li>
+                            <li class="fs-7 py-2 text-uppercase fw-bold">
+                                About
+                            </li>
+                            <li class="fs-7 py-2 text-uppercase fw-bold">
+                                Partnership
+                            </li>
+                            <li class="fs-7 py-2 text-uppercase fw-bold">
+                                Location
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-flex flex-sm-row flex-column">
+                    <div class="mx-5">
+                        <p class="text-uppercase fw-bold fs-6">
+                            More Info
+                        </p>
+                        <ul class="list-unstyled">
+                            <li class="fs-7 py-2 fw-bold text-uppercase">
+                                Term and Conditions
+                            </li>
+                            <li class="fs-7 py-2 fw-bold text-uppercase">
+                                Shipping Policy
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mx-5">
+                        <p class="text-uppercase fw-bold fs-6">
+                            Location
+                        </p>
+                        <ul class="list-unstyled">
+                            <li class="fs-7 py-2 fw-bold text-uppercase">
+                                support@euphoria.in
+                            </li>
+                            <li class="fs-7 py-2 fw-bold text-uppercase">
+                                Eklingpura Chouraha, Ahmedabad Main Road
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="fs-6 my-0 border-top p-4 text-center text-uppercase fw-bold">
+                Copyright © 2023 Juju Ltd. All rights reserved.
+            </p>
+        </footer>
+        <!-- Footer -->
     </main>
 </body>
 </html>
